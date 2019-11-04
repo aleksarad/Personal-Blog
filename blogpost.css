@@ -230,7 +230,7 @@ and (orientation: portrait) {
     #grid-container {
         width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 1000px 400px 150px 50px; 
+        grid-template-rows: 2000px 400px 150px 50px; 
     }
 
     #author {
