@@ -245,6 +245,8 @@ and (orientation: portrait) {
 
     .blog-text {
         font-size: 32px;
+        line-height:45px;
+        text-indent: 80px;
     }
 
 
