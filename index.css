@@ -69,6 +69,7 @@ h1 {
     padding:20px;
     background-color:#C2CAE8;
     border-radius:10px;
+    overflow:hidden;
 }
 
 .one-square {
