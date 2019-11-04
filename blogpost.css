@@ -299,8 +299,12 @@ and (orientation: portrait) {
         grid-column: 1/2;
     }
 
-    #subscribe-heading, #subscribe-p{
+    #subscribe-heading{
         font-size: 33px;
+    }
+
+    #subscribe-p {
+        font-size: 26px;
     }
 
     #email-input {
@@ -323,7 +327,7 @@ and (orientation: portrait) {
     }
 
     #prior-next-post a, footer ul a {
-        font-size: 25px;
+        font-size: 27px;
     }
 }
 
