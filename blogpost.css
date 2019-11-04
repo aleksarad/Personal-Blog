@@ -212,7 +212,7 @@ and (max-device-width: 812px)
 and (orientation: portrait) {
     
     header {
-        padding: 120px 0 110px 0;
+        padding: 110px 0 130px 0;
     }
 
     h1 {
@@ -233,7 +233,7 @@ and (orientation: portrait) {
         width: 100%;
         max-width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 2200px 500px 150px 50px;
+        grid-template-rows: 2400px 500px 150px 50px;
         margin:0; 
         padding:0;
         grid-row-gap:40px;
@@ -262,9 +262,9 @@ and (orientation: portrait) {
         text-indent: 80px;
     }
 
-
     #blog-img {
         width:90%;
+        margin: 15px 0;
     }
 
     #author {
@@ -289,9 +289,18 @@ and (orientation: portrait) {
         font-size: 28px;
     }
 
+    #author-singature {
+        font-style: italic;
+        font-size: 30px;
+    }
+
     #subscribe-banner {
         grid-row: 3/4;
         grid-column: 1/2;
+    }
+
+    #subscribe-heading, #subscribe-p{
+        font-size: 27px;
     }
 
     #email-input {
@@ -311,6 +320,10 @@ and (orientation: portrait) {
         border-radius: 30px;
         font-size:30px;
         margin-left: 5px;
+    }
+
+    #prior-next-post a, footer ul a {
+        font-size: 25;
     }
 }
 
