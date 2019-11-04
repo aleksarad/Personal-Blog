@@ -273,7 +273,7 @@ and (orientation: portrait) {
     #grid-container {
         max-width: 90%;
         grid-template-columns: 100%;
-        grid-template-rows: 100px 100px 100px 100px 100px 1200px 1200px 150px;
+        grid-template-rows: 100px 100px 100px 100px 100px 700px 700px 150px;
     }
 
     #promo-img1 {
@@ -303,7 +303,7 @@ and (orientation: portrait) {
     }
 
     .text-wrapper {
-        top:25%;
+        top:15%;
     }
 
     .text-label {
@@ -319,29 +319,27 @@ and (orientation: portrait) {
 
     .blog-card {
         grid-column: 1/2;
-        display:flex;
-        flex-direction: column;
     }
 
     .blog-preview {
-        font-size:20px;
+        font-size:27px;
     }
 
     .blogimgcontainer {
-        width:90%;
-        height:50%;
+        width:40%;
+        height:100%;
     }
 
     .blogimgcontainer img {
-        height:50%;
+        height:100%;
         width:95%;
         object-fit: cover;
-        border-radius:7px;
+
     }
 
     .blog-blurb {
-        width:90%;
-        height:50%;
+        width:60%;
+        height:100%;
         padding-top:20px;
         overflow:scroll;
     }  
