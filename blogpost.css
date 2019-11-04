@@ -121,12 +121,6 @@ h1 {
     font-weight:600;
 }
 
-#author-caption {
-    font-style:italic;
-    font-size: 14px;
-    margin-top: 15px;
-}
-
 #author-bio {
     padding:7px 30px;
     margin: 10px 0;
@@ -222,7 +216,7 @@ and (orientation: portrait) {
     nav {
         position:absolute;
         height: 80px;
-        width:100%;
+        width:100vw;
     }
 
     nav ul a {
@@ -230,8 +224,8 @@ and (orientation: portrait) {
     }
 
     #grid-container {
-        width: 100%;
-        max-width: 100%;
+        width: 100vw;
+        max-width: 100vw;
         grid-template-columns: 1fr;
         grid-template-rows: 2000px 500px 150px 50px;
         margin:0; 
@@ -245,6 +239,9 @@ and (orientation: portrait) {
         grid-column: 1/2;
         grid-row:1/2;
         overflow:visible;
+    }
+
+    .blog-text {
         font-size: 32px;
     }
 
