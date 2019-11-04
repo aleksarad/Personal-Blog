@@ -216,7 +216,7 @@ and (orientation: portrait) {
     nav {
         position:absolute;
         height: 80px;
-        width:100vw;
+        width:100%;
     }
 
     nav ul a {
@@ -224,11 +224,13 @@ and (orientation: portrait) {
     }
 
     #grid-container {
-        width: 100vw;
-        max-width: 100vw;
+        width: 100%;
+        max-width: 100%;
         grid-template-columns: 1fr;
         grid-template-rows: 2000px 500px 150px 50px;
         margin:0; 
+        padding:0;
+        grid-gap: 0;
     }
 
     #blog-title {
