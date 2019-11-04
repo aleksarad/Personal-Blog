@@ -63,7 +63,7 @@ h1 {
     margin:auto;
     display:grid;
     grid-template-columns: repeat(3, minmax(200px, 350px));
-    grid-template-rows: 600px 1000px 130px 50px;
+    grid-template-rows: 600px 400px 130px 50px;
     grid-gap: 20px;
     padding: 20px;
     background-color: #C2CAE8;
@@ -210,6 +210,10 @@ footer ul {
 and (min-device-width: 320px) 
 and (max-device-width: 812px)
 and (orientation: portrait) {
+    body {
+        font-size:20px;
+    }
+    
     header {
         padding: 110px 0 20px 0;
     }
@@ -244,6 +248,11 @@ and (orientation: portrait) {
         grid-row:1/2;
         overflow:visible;
     }
+
+    #blog-img {
+        width:700px;
+    }
+
     #subscribe-banner {
         grid-row: 3/4;
         grid-column: 1/2;
