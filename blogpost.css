@@ -134,6 +134,8 @@ h1 {
     filter: opacity(90%);
 }
 
+/*SUB BANNER*/
+
 #subscribe-banner {
     grid-row:3/4;
     grid-column:1/4;
@@ -141,6 +143,10 @@ h1 {
     align-items:center;
     justify-content: space-evenly;
     background-color:rgb(152, 156, 194);
+}
+
+#subscribe-heading, #subscribe-p{
+    font-size: 5px;
 }
 
 #email-input {
@@ -153,8 +159,8 @@ h1 {
     font-size:14px;
 }
 
-#email-input::placeholder {
-    font-size:14px;
+.subscribe {
+    font-size:100px;
 }
 
 #subscribe-button {
@@ -206,11 +212,11 @@ and (max-device-width: 812px)
 and (orientation: portrait) {
     
     header {
-        padding: 130px 0 35px 0;
+        padding: 170px 0 55px 0;
     }
 
     h1 {
-        font-size:100px;
+        font-size:180px;
     }
 
     nav {
@@ -230,7 +236,8 @@ and (orientation: portrait) {
         grid-template-rows: 2200px 500px 150px 50px;
         margin:0; 
         padding:0;
-        grid-gap:0;
+        grid-row-gap:20px;
+        grid-column-gap: 0;
     }
 
     #blog-title {
@@ -285,6 +292,25 @@ and (orientation: portrait) {
     #subscribe-banner {
         grid-row: 3/4;
         grid-column: 1/2;
+    }
+
+    #email-input {
+        height:50px;
+        width:200px;
+        padding-left:30px;
+        font-size:27px;
+    }
+    
+    #email-input::placeholder {
+        font-size:27px;
+    }
+    
+    #subscribe-button {
+        height:53px;
+        width:200px;
+        border-radius: 30px;
+        font-size:30px;
+        margin-left: 5px;
     }
 }
 

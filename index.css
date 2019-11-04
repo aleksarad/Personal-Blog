@@ -113,6 +113,8 @@ h1 {
     filter: opacity(100%);
 }
 
+/*SUB BANNER*/
+
 #subscribe-banner {
     display:flex;
     align-items:center;
