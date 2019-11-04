@@ -206,7 +206,7 @@ and (max-device-width: 812px)
 and (orientation: portrait) {
     
     header {
-        padding: 110px 0 20px 0;
+        padding: 130px 0 35px 0;
     }
 
     h1 {
@@ -215,7 +215,7 @@ and (orientation: portrait) {
 
     nav {
         position:absolute;
-        height: 100px;
+        height: 90px;
         width:100%;
     }
 
@@ -230,6 +230,7 @@ and (orientation: portrait) {
         grid-template-rows: 2200px 500px 150px 50px;
         margin:0; 
         padding:0;
+        grid-gap:0;
     }
 
     #blog-title {
