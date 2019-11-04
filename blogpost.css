@@ -300,7 +300,7 @@ and (orientation: portrait) {
     }
 
     #subscribe-heading, #subscribe-p{
-        font-size: 27px;
+        font-size: 33px;
     }
 
     #email-input {
@@ -323,7 +323,7 @@ and (orientation: portrait) {
     }
 
     #prior-next-post a, footer ul a {
-        font-size: 25;
+        font-size: 25px;
     }
 }
 
