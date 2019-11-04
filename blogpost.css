@@ -241,7 +241,7 @@ and (orientation: portrait) {
     #blog-content {
         grid-column: 1/2;
         grid-row:1/2;
-        overflow:scroll;
+        /* overflow:scroll; */
     }
     #subscribe-banner {
         grid-row: 3/4;
