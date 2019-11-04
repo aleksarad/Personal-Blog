@@ -228,9 +228,9 @@ and (orientation: portrait) {
     }
 
     #grid-container {
-        max-width: 90%;
-        grid-template-columns: 100%;
-        grid-template-rows: 800px 400px 150px 50px; 
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1000px 400px 150px 50px; 
     }
 
     #author {
