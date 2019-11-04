@@ -63,13 +63,12 @@ h1 {
     max-width:1050px;
     margin:auto;
     display:grid;
-    grid-template-columns:repeat(3, minmax(200px, 350px));
+    grid-template-columns:repeat(3, minmax(100px, 350px));
     grid-template-rows:300px 300px 130px 300px 300px;
     grid-gap:20px;
     padding:20px;
     background-color:#C2CAE8;
     border-radius:10px;
-    overflow:hidden;
 }
 
 .one-square {
