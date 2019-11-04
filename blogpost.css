@@ -228,7 +228,7 @@ and (orientation: portrait) {
     }
 
     #grid-container {
-        max-width: 100%;
+        width: 100%;
         grid-template-columns: 1fr;
         grid-template-rows: 1000px 400px 150px 50px; 
     }
@@ -236,12 +236,13 @@ and (orientation: portrait) {
     #author {
         grid-column: 1/2;
         grid-row: 2/3;
+        overflow: scroll;
     }
 
     #blog-content {
         grid-column: 1/2;
         grid-row:1/2;
-        /* overflow:scroll; */
+        overflow:visible;
     }
     #subscribe-banner {
         grid-row: 3/4;
