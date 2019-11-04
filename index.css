@@ -182,7 +182,7 @@ h1 {
     background-image: url('https://images.unsplash.com/photo-1533158388470-9a56699990c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=693&q=80');
 }
 
-.full-width {
+.full-width, .blog-card {
     grid-column: 1/4;
     display:flex;
 }
@@ -273,38 +273,38 @@ and (orientation: portrait) {
     #grid-container {
         max-width: 90%;
         grid-template-columns: 100%;
-        grid-template-rows: 90px 90px 90px 90px 90px 600px 600px 150px;
+        grid-template-rows: 100px 100px 100px 100px 100px 600px 600px 150px;
     }
 
     #promo-img1 {
         background-size:900px;
-        background-image: url('https://images.pexels.com/photos/1568607/pexels-photo-1568607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
         grid-row:1/2;
     }
     
     #promo-img2, .two-squares {
         background-size:900px;
-        background-image: url('https://images.pexels.com/photos/1488378/pexels-photo-1488378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
         grid-row:2/3;
         grid-column:1/2;
     }
     
     #promo-img3 {
         background-size:900px;
-        background-image: url('https://images.pexels.com/photos/2599116/pexels-photo-2599116.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
         grid-row:3/4;
     }
     
     #promo-img4 {
         background-size:900px;
-        background-image: url('https://images.unsplash.com/photo-1533158326339-7f3cf2404354?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1604&q=80');
         grid-row:4/5;
     }
     
     #promo-img5 {
         background-size:900px;
-        background-image: url('https://images.unsplash.com/photo-1533158388470-9a56699990c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=693&q=80');
         grid-row:5/6;
+    }
+
+    .text-label {
+        font-size:27px;
+        padding: 15px;
     }
 
     #subscribe-banner {
@@ -315,6 +315,7 @@ and (orientation: portrait) {
 
     .blog-card {
         grid-column: 1/2;
+        flex-direction: column;
     }
 
     .blog-preview {
