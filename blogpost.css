@@ -146,7 +146,7 @@ h1 {
 }
 
 #subscribe-heading, #subscribe-p{
-    font-size: 5px;
+    font-size: 18px;
 }
 
 #email-input {
@@ -212,7 +212,7 @@ and (max-device-width: 812px)
 and (orientation: portrait) {
     
     header {
-        padding: 130px 0 80px 0;
+        padding: 120px 0 110px 0;
     }
 
     h1 {
@@ -236,7 +236,7 @@ and (orientation: portrait) {
         grid-template-rows: 2200px 500px 150px 50px;
         margin:0; 
         padding:0;
-        grid-row-gap:20px;
+        grid-row-gap:40px;
         grid-column-gap: 0;
     }
 
