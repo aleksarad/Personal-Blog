@@ -210,17 +210,17 @@ and (orientation: portrait) {
     }
 
     h1 {
-        font-size:80px;
+        font-size:100px;
     }
 
     nav {
         position:absolute;
-        height: 80px;
+        height: 100px;
         width:100%;
     }
 
     nav ul a {
-        font-size: 30px;
+        font-size: 32px;
     }
 
     #grid-container {
@@ -235,10 +235,12 @@ and (orientation: portrait) {
 
     #blog-title {
         font-size:40px;
+        margin-top: 50px;
     }
 
     #blog-date, #img-caption {
-        font-size: 30px;
+        font-size: 27px;
+        margin-top: 20px;
     }
 
     #blog-content {
@@ -251,7 +253,6 @@ and (orientation: portrait) {
         font-size: 32px;
         line-height:55px;
         text-indent: 80px;
-        padding: 0 45px;
     }
 
 
