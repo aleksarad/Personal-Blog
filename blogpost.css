@@ -75,7 +75,7 @@ h1 {
     grid-row: 1/3;
     grid-column: 1/3;
     text-align:center;
-    /* overflow: scroll; */
+    overflow: scroll;
 }
 
 .blog-text {
@@ -244,7 +244,7 @@ and (orientation: portrait) {
     }
 
     #blog-img {
-        width:700px;
+        width:90%;
     }
 
     #author {
@@ -254,7 +254,7 @@ and (orientation: portrait) {
     }
 
     #author-avatar {
-        width: 100px;
+        width: 250px;
         float: left;
     }
 
