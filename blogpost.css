@@ -63,7 +63,7 @@ h1 {
     margin:auto;
     display:grid;
     grid-template-columns: repeat(3, minmax(200px, 350px));
-    grid-template-rows: 600px 400px 130px 50px;
+    grid-template-rows: 650px 350px 130px 50px;
     grid-gap: 20px;
     padding: 20px;
     background-color: #C2CAE8;
@@ -116,12 +116,6 @@ h1 {
     overflow:scroll;
 }
 
-#author-signature {
-    font-size: 23px;
-    font-style: italic;
-    text-shadow: 1px 1px 1px rgb(118, 255, 253);
-    color:rgb(78, 79, 123)
-}
 
 #author h3 {
     margin: 40px 0 20px 0;
