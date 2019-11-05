@@ -297,11 +297,11 @@ and (orientation: portrait) {
     }
 
     #subscribe-heading{
-        font-size: 33px;
+        font-size: 30px;
     }
 
     #subscribe-p {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     #email-input {
@@ -317,7 +317,7 @@ and (orientation: portrait) {
     
     #subscribe-button {
         height:53px;
-        width:250px;
+        width:235px;
         border-radius: 30px;
         font-size:30px;
         margin-left: 5px;
