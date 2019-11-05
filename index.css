@@ -273,7 +273,7 @@ and (orientation: portrait) {
     #grid-container {
         max-width: 90%;
         grid-template-columns: 100%;
-        grid-template-rows: 100px 100px 100px 100px 100px 1000px 1000px 150px;
+        grid-template-rows: 100px 100px 100px 100px 100px 700px 700px 150px;
     }
 
     #promo-img1 {
@@ -314,12 +314,11 @@ and (orientation: portrait) {
     #subscribe-banner {
         grid-row:8/9;
         grid-column:1/2;
-
+        flex-direction: column;
     }
 
     .full-width {
         grid-column: 1/2;
-        flex-direction: column;
     }
 
     .blog-preview {
@@ -327,20 +326,21 @@ and (orientation: portrait) {
     }
 
     .blogimgcontainer {
-        width:100%;
-        height:50%;
+        width:40%;
+        height:90%;
     }
 
     .blogimgcontainer img {
-        width:300px;
-        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+        padding: 10px;
         object-fit: cover;
 
     }
 
     .blog-blurb {
-        width:80%;
-        height:50%;
+        width:60%;
+        height:90%;
         padding-top:20px;
         overflow:scroll;
     }  
