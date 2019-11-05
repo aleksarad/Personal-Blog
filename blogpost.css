@@ -232,7 +232,7 @@ and (orientation: portrait) {
     #grid-container {
         max-width: 90%;
         grid-template-columns: 1fr;
-        grid-template-rows: 2400px 500px 150px 50px;
+        grid-template-rows: 2400px 500px 250px 50px;
         padding: 20px;
         grid-row-gap:40px;
         grid-column-gap: 0;
@@ -295,37 +295,38 @@ and (orientation: portrait) {
     #subscribe-banner {
         grid-row: 3/4;
         grid-column: 1/2;
+        flex-direction:column;
     }
 
     #subscribe-heading{
-        font-size: 33px;
+        font-size: 37px;
     }
 
     #subscribe-p {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     #email-input {
-        height:50px;
-        width:250px;
+        height:60px;
+        width:300px;
         padding-left:30px;
-        font-size:25px;
+        font-size:26px;
     }
     
     #email-input::placeholder {
-        font-size:27px;
+        font-size:26px;
     }
     
     #subscribe-button {
-        height:53px;
-        width:250px;
+        height:63px;
+        width:300px;
         border-radius: 30px;
-        font-size:30px;
+        font-size:32px;
         margin-left: 5px;
     }
 
     #prior-next-post a, footer ul a {
-        font-size: 27px;
+        font-size: 29px;
     }
 }
 
