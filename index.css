@@ -328,7 +328,7 @@ and (orientation: portrait) {
     .blogimgcontainer {
         /* width:40%;
         height:90%; */
-        display:hidden;
+        display:none;
     }
 
     .blogimgcontainer img {
@@ -336,7 +336,7 @@ and (orientation: portrait) {
         width: 100%;
         padding: 10px;
         object-fit: cover; */
-        display:hidden;
+        display:none;
     }
 
     .blog-blurb {
