@@ -231,7 +231,7 @@ and (orientation: portrait) {
     #grid-container {
         max-width: 90%;
         grid-template-columns: 1fr;
-        grid-template-rows: 2400px 500px 150px 50px;
+        grid-template-rows: 2400px 500px 170px 50px;
         padding: 20px;
         grid-row-gap:40px;
         grid-column-gap: 0;
@@ -277,14 +277,13 @@ and (orientation: portrait) {
     #author-avatar {
         width: 250px;
         float: left;
-        margin: 10px;
+        margin: 0 30px;
     }
 
     #author-bio {
         text-align:left;
-        padding: 20px;
-        font-size: 28px;
-        line-height: 40px;
+        padding: 30px;
+        font-size: 27px;
     }
 
     #author-signature {
@@ -307,7 +306,7 @@ and (orientation: portrait) {
 
     #email-input {
         height:50px;
-        width:230px;
+        width:220px;
         padding-left:30px;
         font-size:25px;
     }
@@ -318,7 +317,7 @@ and (orientation: portrait) {
     
     #subscribe-button {
         height:53px;
-        width:225px;
+        width:220px;
         border-radius: 30px;
         font-size:30px;
         margin-left: 5px;
