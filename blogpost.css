@@ -250,7 +250,7 @@ and (orientation: portrait) {
     #blog-content {
         grid-column: 1/2;
         grid-row:1/2;
-        overflow:visible;
+        overflow:scroll;
     }
 
     .blog-text {
