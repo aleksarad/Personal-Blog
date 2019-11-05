@@ -113,6 +113,13 @@ h1 {
     grid-column:3/4;
     text-align:center;
     background-color:rgb(152, 156, 194);
+    overflow:scroll;
+}
+
+#author-signature {
+    font-size: 18px;
+    font-style: italic;
+    text-shadow: 2px 2px 2px rgb(118, 255, 253);
 }
 
 #author h3 {
@@ -271,7 +278,6 @@ and (orientation: portrait) {
     #author {
         grid-column: 1/2;
         grid-row: 2/3;
-        overflow: scroll;
     }
 
     #author h3 {
@@ -291,7 +297,6 @@ and (orientation: portrait) {
     }
 
     #author-signature {
-        font-style: italic;
         font-size: 30px;
     }
 
