@@ -284,6 +284,7 @@ and (orientation: portrait) {
         text-align:left;
         padding: 20px;
         font-size: 28px;
+        line-height: 40px;
     }
 
     #author-signature {
@@ -306,7 +307,7 @@ and (orientation: portrait) {
 
     #email-input {
         height:50px;
-        width:250px;
+        width:230px;
         padding-left:30px;
         font-size:25px;
     }
@@ -317,7 +318,7 @@ and (orientation: portrait) {
     
     #subscribe-button {
         height:53px;
-        width:235px;
+        width:225px;
         border-radius: 30px;
         font-size:30px;
         margin-left: 5px;
