@@ -252,22 +252,22 @@ footer ul {
 @media only screen 
 and (min-device-width: 320px) 
 and (max-device-width: 812px)
-and (orientation: portrait) {
+and (orientation: portrait) {  
     header {
-        padding: 110px 0 20px 0;
+        padding: 110px 0 130px 0;
     }
 
     h1 {
-        font-size:80px;
+        font-size:170px;
     }
 
     nav {
-        position:absolute;
-        height: 80px;
+        height: 90px;
+        width:100%;
     }
 
     nav ul a {
-        font-size: 30px;
+        font-size: 32px;
     }
 
     #grid-container {
