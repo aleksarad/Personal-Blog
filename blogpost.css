@@ -294,7 +294,6 @@ and (orientation: portrait) {
     #subscribe-banner {
         grid-row: 3/4;
         grid-column: 1/2;
-        flex-direction:column;
     }
 
     #subscribe-heading{
