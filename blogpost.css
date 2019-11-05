@@ -230,12 +230,10 @@ and (orientation: portrait) {
     }
 
     #grid-container {
-        width: 100%;
-        max-width: 100%;
+        max-width: 90%;
         grid-template-columns: 1fr;
         grid-template-rows: 2400px 500px 150px 50px;
-        margin:0; 
-        padding:0;
+        padding: 20px;
         grid-row-gap:40px;
         grid-column-gap: 0;
     }
