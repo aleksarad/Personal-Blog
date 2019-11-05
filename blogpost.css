@@ -231,7 +231,7 @@ and (orientation: portrait) {
     #grid-container {
         max-width: 90%;
         grid-template-columns: 1fr;
-        grid-template-rows: 2400px 500px 170px 50px;
+        grid-template-rows: 2300px 520px 170px 50px;
         padding: 20px;
         grid-row-gap:40px;
         grid-column-gap: 0;
@@ -282,7 +282,7 @@ and (orientation: portrait) {
 
     #author-bio {
         text-align:left;
-        padding: 30px;
+        padding: 0 30px 30px 15px;
         font-size: 27px;
     }
 
@@ -307,7 +307,7 @@ and (orientation: portrait) {
     #email-input {
         height:50px;
         width:220px;
-        padding-left:30px;
+        padding-left:20px;
         font-size:25px;
     }
     
