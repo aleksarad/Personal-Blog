@@ -42,7 +42,7 @@ a:hover {
 
 /*HEADER*/
 header {
-    height: 80px;
+    height:80px;
     width:100%;
     border:none;
     text-align:center;
@@ -78,7 +78,7 @@ h1 {
     filter:opacity(80%);
 }
 
-.two-squares{
+.two-squares {
     overflow:hidden;
     position:relative;
     display:inline-block;
@@ -157,27 +157,27 @@ h1 {
     filter: opacity(85%);
 }
 
-#promo-img1{
+#promo-img1 {
     background-size:400px;
     background-image: url('https://images.pexels.com/photos/1568607/pexels-photo-1568607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 
-#promo-img2{
+#promo-img2 {
     background-size:800px;
     background-image: url('https://images.pexels.com/photos/1488378/pexels-photo-1488378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 
-#promo-img3{
+#promo-img3 {
     background-size:400px;
     background-image: url('https://images.pexels.com/photos/2599116/pexels-photo-2599116.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 
-#promo-img4{
+#promo-img4 {
     background-size:400px;
     background-image: url('https://images.unsplash.com/photo-1533158326339-7f3cf2404354?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1604&q=80');
 }
 
-#promo-img5{
+#promo-img5 {
     background-size:400px;
     background-image: url('https://images.unsplash.com/photo-1533158388470-9a56699990c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=693&q=80');
 }
@@ -237,7 +237,7 @@ h1 {
 
 /*FOOTER*/
 
-footer{
+footer {
     width: 60%;
     margin:auto;
 }
@@ -326,22 +326,23 @@ and (orientation: portrait) {
     }
 
     .blogimgcontainer {
-        width:40%;
-        height:90%;
+        /* width:40%;
+        height:90%; */
+        display:hidden;
     }
 
     .blogimgcontainer img {
-        height: 100%;
+        /* height: 100%;
         width: 100%;
         padding: 10px;
-        object-fit: cover;
-
+        object-fit: cover; */
+        display:hidden;
     }
 
     .blog-blurb {
-        width:60%;
+        width:100%;
         height:90%;
-        padding-top:20px;
+        padding: 40px;
         overflow:scroll;
     }  
     
