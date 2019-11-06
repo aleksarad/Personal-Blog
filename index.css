@@ -317,6 +317,33 @@ and (orientation: portrait) {
         grid-column:1/2;
     }
 
+    #subscribe-heading {
+        font-size: 30px;
+    }
+
+    #subscribe-p {
+        font-size: 24px;
+    }
+
+    #email-input {
+        height:50px;
+        width:220px;
+        padding-left:20px;
+        font-size:25px;
+    }
+    
+    #email-input::placeholder {
+        font-size:27px;
+    }
+    
+    #subscribe-button {
+        height:53px;
+        width:220px;
+        border-radius: 30px;
+        font-size:30px;
+        margin-left: 5px;
+    }
+
     .full-width {
         grid-column: 1/2;
     }

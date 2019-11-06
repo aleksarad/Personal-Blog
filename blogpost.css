@@ -302,7 +302,7 @@ and (orientation: portrait) {
         grid-column: 1/2;
     }
 
-    #subscribe-heading{
+    #subscribe-heading {
         font-size: 30px;
     }
 
