@@ -277,9 +277,9 @@ and (orientation: portrait) {
         grid-row: 2/3;
     }
 
-    /* #author h3 {
+    #author h3 {
         font-size: 30px;
-    } */
+    }
 
     #author-avatar {
         width: 250px;
@@ -287,11 +287,11 @@ and (orientation: portrait) {
         margin: 0 30px;
     }
 
-    /* #author-bio {
+    #author-bio {
         text-align:left;
         padding: 0 30px 30px 15px;
         font-size: 20px;
-    } */
+    }
 
     #subscribe-banner {
         grid-row: 3/4;
