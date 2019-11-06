@@ -252,8 +252,8 @@ and (orientation: portrait) {
     }
 
     .blog-text {
-        font-size: 32px;
-        line-height: 55px;
+        font-size: 25px;
+        line-height: 45px;
         text-indent: 80px;
     }
 
@@ -263,7 +263,7 @@ and (orientation: portrait) {
     }
 
     #blog-date, #img-caption {
-        font-size: 27px;
+        font-size: 20px;
         margin-top: 20px;
     }
 
@@ -278,7 +278,7 @@ and (orientation: portrait) {
     }
 
     #author h3 {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     #author-avatar {
@@ -290,11 +290,7 @@ and (orientation: portrait) {
     #author-bio {
         text-align:left;
         padding: 0 30px 30px 15px;
-        font-size: 27px;
-    }
-
-    #author-signature {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     #subscribe-banner {
