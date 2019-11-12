@@ -1,6 +1,7 @@
 /*Nav, Header, and Footer*/
-@import "https://aleksarad.github.io/blog/index-header-footer.css";
+@import "https://aleksarad.github.io/blog/styles/index-header-footer.css";
 /*Main Content - Grid*/
-@import "https://aleksarad.github.io/blog/index-grid.css";
+@import "https://aleksarad.github.io/blog/styles/index-grid.css";
 /*Media Query*/
-@import "https://aleksarad.github.io/blog/index-media.css";
+@import "https://aleksarad.github.io/blog/styles/index-media.css";
+
