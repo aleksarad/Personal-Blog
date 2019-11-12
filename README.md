@@ -1,9 +1,5 @@
 # blog
 
-<<<<<<< HEAD
-
-=======
->>>>>>> d816f6e1ad2e0423a358443310bbc16b703b2ff6
 This is a multi-page blog template website - it can be viewed live at https://aleksarad.github.io/blog/. 
 
 Wireframes for the home page and the blog page can be viewed below:
