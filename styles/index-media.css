@@ -1,7 +1,4 @@
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 812px)
-and (orientation: portrait) {  
+@media(max-width: 768px) {  
     header {
         padding: 110px 0 130px 0;
     }
